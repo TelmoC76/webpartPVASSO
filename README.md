@@ -45,8 +45,10 @@ Short summary on functionality and used technologies.
 - Clone this repository
 - Ensure that you are at the solution folder
 - in the command-line run:
-  - **npm install**
-  - **gulp serve**
+  - npm install
+  - edit AskhrbotWebPart.ts with your settings line 29-36
+  - gulp serve
+  - add askhrbot web part on the workbench - <site colection url>/_layouts/15/workbench.aspx
 
 > Include any additional steps as needed.
 
@@ -56,9 +58,9 @@ Description of the extension that expands upon high-level summary above.
 
 This extension illustrates the following concepts:
 
-- topic 1
-- topic 2
-- topic 3
+- SSO from Sharepoint - In Progress
+- Upload filesfrom PVA to dataverse
+
 
 > Notice that better pictures and documentation will increase the sample usage and the value you are providing for others. Thanks for your submissions advance.
 
