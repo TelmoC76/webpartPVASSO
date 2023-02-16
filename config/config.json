@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "askhrbot-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/askhrbot/AskhrbotWebPart.js",
+          "manifest": "./src/webparts/askhrbot/AskhrbotWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "AskhrbotWebPartStrings": "lib/webparts/askhrbot/loc/{locale}.js"
+  }
+}

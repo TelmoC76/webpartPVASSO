@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "askhrbot-webpart-client-side-solution",
+    "id": "92c475d0-6f6d-4e9e-bcb9-400bd0f57cfe",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.16.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "askhrbot-webpart description"
+      },
+      "longDescription": {
+        "default": "askhrbot-webpart description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "askhrbot-webpart Feature",
+        "description": "The feature that activates elements of the askhrbot-webpart solution.",
+        "id": "41f67ab0-cb43-427b-be1b-dc8fdb19347e",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/askhrbot-webpart.sppkg"
+  }
+}
